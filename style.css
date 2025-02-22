@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo {    
+    width: 100px; /* Atur lebar sesuai kebutuhan */
+    height: auto; /* Memastikan proporsi tetap */
+    margin: auto; /* Memusatkan logo */
+    display:  inline-block; /* Memastikan logo ditampilkan sebagai blok */
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all .5s ease 0s;  
+}
+
+
+main {
+    border: 3px  solid red;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+img  {
+    width: 100vw;
+    height: auto;
+    margin-top: 15px;
+    display: block;
+}
+/* Content Styles */
+p {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: #555;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
